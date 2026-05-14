@@ -44,6 +44,7 @@
     },
     "slecht": {
       "pauze": 0.75,
+      "lunchPauze": 1.5,
       "totaal": [
         {
           "uren": 3,
