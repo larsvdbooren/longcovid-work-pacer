@@ -35,7 +35,7 @@ export default function MainCard() {
   const MAX_HOURS = 7;
 
   return (
-    <Card className="max-w-160 bg-stone-950">
+    <Card className="w-full max-w-160 bg-stone-950">
       <CardHeader className="pb-4 border-b ">
         <CardTitle className="text-lg font-bold">Vandaag</CardTitle>
         <CardDescription>
@@ -46,7 +46,7 @@ export default function MainCard() {
           })}
         </CardDescription>
       </CardHeader>
-      <CardContent className="grid grid-cols-2 gap-4">
+      <CardContent className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Card className="p-0">
           <CardContent className="flex flex-col p-2 gap-2">
             <CardDescription className="p-2">

@@ -96,7 +96,7 @@ export default function HoursTable({
   });
 
   return (
-    <Card className="mx-6">
+    <Card className="mx-3 sm:mx-6">
       <CardContent>
         <CardDescription>Jouw planning:</CardDescription>
         <Table>
