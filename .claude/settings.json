@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(mkdir -p /Users/Lars_1/repos/longcovid-work-pacer/lib)",
-      "Bash(xargs ls)"
+      "Bash(xargs ls)",
+      "Bash(git -C /Users/Lars_1/repos/longcovid-work-pacer log --oneline -5)"
     ],
     "additionalDirectories": [
       "/Users/Lars_1/repos/longcovid-work-pacer"
